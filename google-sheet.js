@@ -24,7 +24,7 @@ $("#foo").submit(function(event){
 
     // Fire off the request to /form.php
     request = $.ajax({
-        url: "https://script.google.com/macros/s/AKfycbx_YbIbw8SrJNsDVAYWkfC2k0UhyklwcaobBD-soFzBmG6c5CM/exec",
+        url: "https://script.google.com/macros/s/AKfycbxs1zRM044PSW2nyCrmus1ixKU2PaGGfq1Js6VWCnZ4NfGGWYzf/exec",
         type: "post",
         data: serializedData
     });
@@ -53,7 +53,7 @@ $("#foo").submit(function(event){
         // Reenable the inputs
         $inputs.prop("disabled", false);
         // Redirect after submission
-        window.location = 'no-sidebar.html';
+        window.location = 'form-complete.html';
     });
 
     // Prevent default posting of form
