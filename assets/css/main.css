@@ -2563,12 +2563,13 @@
 
 	#cta {
 		text-align: center;
-		padding: 3.5em 0;
+		padding: 1em 0;
 	}
 
-		#cta header h2 {
+		#cta header p {
 			display: inline-block;
 			vertical-align: middle;
+			font-size: 1.1em;
 			margin: 0;
 		}
 
@@ -2698,7 +2699,7 @@
 		/* CTA */
 
 			#cta {
-				padding: 2em 0;
+				padding: 0.75em 0;
 			}
 
 		/* Footer */
@@ -2813,10 +2814,10 @@
 		/* CTA */
 
 			#cta {
-				padding: 1.5em 0;
+				padding: 0.25em 0;
 			}
 
-				#cta header h2 {
+				#cta header p {
 					display: block;
 				}
 
@@ -3159,7 +3160,7 @@
 		/* CTA */
 
 			#cta {
-				padding: 20px;
+				padding: 15px;
 			}
 
 		/* Footer */
